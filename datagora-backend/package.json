@@ -1,0 +1,75 @@
+{
+<<<<<<< HEAD
+  "name": "mahmutiki-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.35.0",
+    "@aptos-labs/wallet-adapter-react": "^3.7.11",
+    "@bprogress/next": "^3.0.8",
+    "@google/generative-ai": "^0.21.0",
+    "@heroicons/react": "^2.2.0",
+    "@heroui/react": "^2.6.14",
+    "@nightlylabs/aptos-wallet-adapter-plugin": "^0.2.12",
+    "@okwallet/aptos-wallet-adapter": "^0.0.7",
+    "@tailwindcss/postcss": "^4.0.4",
+    "framer-motion": "^12.0.11",
+    "next": "15.1.6",
+    "pinata-web3": "^0.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-text-transition": "^3.1.0",
+    "three": "^0.173.0",
+    "vanta": "^0.5.24"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.173.0",
+    "@types/video-react": "^0.15.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+=======
+  "name": "datagora-cli",
+  "version": "1.2.0",
+  "description": "A CLI Tool for managing and interacting with Move contracts for the Datagora project.",
+  "main": "scripts/app.ts",
+  "bin": {
+    "datagora": "scripts/datagora/app.ts"
+  },
+  "scripts": {
+    "start": "ts-node scripts/app.ts start",
+    "help": "ts-node scripts/app.ts help"
+  },
+  "dependencies": {
+    "@aptos-labs/aptos-client": "^1.0.0",
+    "@aptos-labs/ts-sdk": "^1.35.0",
+    "@batikankutluer/custom-console": "^1.0.6",
+    "@noble/hashes": "^1.7.1",
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.4.2",
+    "install": "^0.13.0",
+    "npm": "^11.1.0",
+    "toml": "^3.0.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.17",
+    "ts-node": "^10.9.2",
+>>>>>>> datagora-backend/main
+    "typescript": "^5.7.3"
+  }
+}
